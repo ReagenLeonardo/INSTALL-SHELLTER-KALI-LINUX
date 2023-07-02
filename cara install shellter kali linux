@@ -1,0 +1,9 @@
+CARA INSTALL SHELLTER DI KALI LINUX ::
+
+apt-get install shellter
+
+dpkg --add-architecture i386 && apt update && apt -y install wine32
+
+rm -r ~/.wine
+
+shellter
